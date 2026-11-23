@@ -8,6 +8,8 @@ life to /output/entry.txt. The line is the whole entry.
 import os
 
 JOKE = "I bought a standing desk so I could sit at it with better posture."
+# The twist lands on the last two words: the "upgrade" changed nothing
+# except the excuse — a very everyday kind of self-improvement.
 
 def main() -> None:
     assert 1 <= len(JOKE) <= 200, f"line must be 1-200 chars, got {len(JOKE)}"
